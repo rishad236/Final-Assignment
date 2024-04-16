@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Puma Shoes</title>
+    <meta name="description" content="This lesson will look at ways to make our CSS more efficient">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<!-- to use gradient -->
+<body class="body2">
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Your Shoe Store">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product.html">Shop</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Page Section -->
+    <section id="contact" >
+        <div class="about">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to our friendly team.</p>
+        <p style="font-size: .7em;">with intresting thoughts bag <span>a pair</span> of shoes</p>
+        </div>
+        <form action="contact.php" method="post" >
+            <h3>Message us !</h3>
+            <input type="text" id="name" name="name" required placeholder="Name"><br>
+
+            <input type="email" id="email" name="email" required placeholder="email"><br>
+
+            <input type="tel" id="tel" name="tel" required placeholder="Phone"><br>
+
+            <textarea id="message" name="message" placeholder="Your message" required></textarea><br>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Shoe Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
